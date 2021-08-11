@@ -1,0 +1,121 @@
+#maincontainer {
+  width: 75%;
+  background-color: lightskyblue;
+  border: 2px solid black;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  
+}
+.van{
+ width:180px;
+ height:180px;
+
+}
+nav {
+  width: 85%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  border-radius: 4px;
+}
+nav li {
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+}
+nav li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: mintcream;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav li a:hover {
+  color: blue;
+}
+.seconddiv {
+  background-color: white;
+  display: flex;
+  font-family: 'Abril Fatface', cursive;
+  flex-wrap: wrap;
+  width:85%;
+  margin:20px 70px;
+  box-shadow:inset 0px 1px 22px 0px #000000;
+}
+.thirddiv {
+  background-color: white;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:20px 70px;
+  box-shadow:inset 0px 1px 22px 0px #000000;
+}
+.head{
+  text-align:center;
+  text-decoration: underline;
+  font-family: 'Abril Fatface', cursive;
+  
+}
+.ed {
+  margin-top: 20px;
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  font-size:20px;
+  font-family: 'Abril Fatface', cursive;
+}
+.fourthdiv {
+  background-color: white;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:20px 70px;;
+  box-shadow:inset 0px 1px 22px 0px #000000;
+  
+}
+.ed4 {
+  margin-top: 30px;
+  list-style: none;
+  font-weight: bold;
+  font-size:20px;
+  font-family: 'Abril Fatface', cursive;
+
+}
+.fifthdiv {
+  background-color: white;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:20px 70px;
+  box-shadow:inset 0px 1px 22px 0px #000000;
+  
+}
+.ed5 {
+  margin-top: 20px;
+  list-style: none;
+  font-weight: bold;
+  font-size:20px;
+  font-family: 'Abril Fatface', cursive;
+}
+.sixthdiv{
+  background-color: white;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:20px 70px;
+  box-shadow:inset 0px 1px 22px 0px #000000;
+  
+}
+.ed6{
+  margin-top: 20px;
+  list-style: none;
+}
